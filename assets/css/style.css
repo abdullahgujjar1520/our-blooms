@@ -754,6 +754,120 @@ color: #2C2825;
   padding: 1rem 0rem;
 }
 
+
+.hero{
+      text-align:center;
+      margin-top: 30px;
+      color: #2C2825;
+    }
+
+    .hero h2{
+      width: 80%;
+      font-size:12vw;
+      font-weight:800;
+      line-height:1.1;
+      color: #2C2825;
+      margin-bottom:15px;
+      justify-self: center;
+    }
+
+    .hero p{
+      max-width:620px;
+      margin:auto;
+      color:#555;
+      font-size:17px;
+      font-family: poppins, sans-serif;
+    }
+
+    /* CARD */
+    .card{
+      max-width:1000px;
+      font-family: poppins, sans-serif;
+      margin:60px auto;
+      background:rgba(255,255,255,0.75);
+      backdrop-filter:blur(16px);
+      border-radius:26px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      box-shadow:0 40px 80px rgba(0,0,0,0.12);
+      overflow:hidden;
+    }
+
+    /* LEFT */
+    .left{
+      padding:60px;
+      background: #2C2825;
+      color:#fff;
+    }
+
+    .left h3{
+      font-size:30px;
+      margin-bottom:20px;
+    }
+
+    .left p{
+      opacity:.9;
+      line-height:1.8;
+      margin-bottom:40px;
+    }
+
+    .info{
+      margin-bottom:25px;
+    }
+
+    .info small{opacity:.8}
+    .info strong{display:block;font-size:17px}
+
+    /* FORM */
+    .right{
+      padding:60px;
+    }
+
+    .right h4{
+      font-size:26px;
+      margin-bottom:25px;
+      color: #2C2825;
+    }
+
+    input,textarea{
+      width:100%;
+      padding:16px;
+      border:none;
+      border-radius:14px;
+      background:#f3f4f6;
+      margin-bottom:18px;
+      font-size:14px;
+    }
+
+    input:focus,textarea:focus{
+      outline:2px solid #2C2825;
+      background:#fff;
+    }
+
+    textarea{height:120px}
+
+    button{
+      padding:15px 40px;
+      border:none;
+      border-radius:30px;
+      font-weight:600;
+      cursor:pointer;
+      color:#fff;
+      background:#2C2825;
+      transition:.3s;
+    }
+
+    button:hover{
+      transform:translateY(-3px);
+      box-shadow:0 20px 40px rgba(99,102,241,.4);
+    }
+
+    /* RESPONSIVE */
+    @media(max-width:900px){
+      .card{grid-template-columns:1fr}
+      header{padding:20px}
+      .hero h2{font-size:40px}
+    }
 /* ======== RESPONSIVE DESIGN ======== */
 
 /* Tablet (768px - 1200px) */
@@ -1315,3 +1429,4 @@ color: #2C2825;
     display: none;
   }
 }
+
